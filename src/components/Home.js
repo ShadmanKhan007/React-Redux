@@ -4,10 +4,6 @@ const Home = (props) => {
     console.log("Home", props.data)
   return (
     <div>
-       <div className="add-to-cart">
-       <span className="cart-count">{props.data.length}</span>
-                <img src="https://static.vecteezy.com/system/resources/thumbnails/000/496/007/small/Ecommerce_998.jpg" alt="add-to-cart" />
-            </div>
             
         <h1>Home Components</h1>
         <div className="cart-wrapper">

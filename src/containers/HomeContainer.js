@@ -3,13 +3,13 @@ import Home from '../components/Home';
 import {addToCart} from "../services/actions/actions";
 
 const mapStateToProps=state=>({
-  data: state.cardItems
+   // data:state.cardItems
 })
 const mapDispatchToProps=dispatch=>({
    addToCartHandler:data=>dispatch(addToCart(data))
 
 })
-export default connect(mapStateToProps,mapDispatchToProps)(Home);
+export default connect(mapStateToProps,mapDispatchToProps)(Home)
 
 
-//export default Home; 
+//export default Home;
